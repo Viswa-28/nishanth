@@ -1,0 +1,224 @@
+nav{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 531px;
+    width: 100%;
+    margin-bottom: 63px;
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.about-section{
+    height: 188px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.about-section .wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* number-ection start */
+.numbers-section{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.numbers-section .wrapper{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+   
+}
+.numbers-section .wrapper .card{
+    width: 28%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    border-radius: 30px;
+}
+
+
+/* number-ection end */
+.brands{
+    height: 400px;
+    margin-bottom: 80px;
+
+}
+.brands .wrapper{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+    ;
+    justify-content: center;
+
+}
+.brands .wrapper img{
+    height: 149px;
+    width: 350px;
+    object-fit: contain;
+}
+/* media  */
+@media only screen and (max-width:1250px){
+
+    .brands {
+        height: auto;
+        
+    }
+}
+@media only screen and (max-width:1050){
+    .banner img {
+        height: 800px;
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width:950px){
+    .banner {
+        display: flex
+    ;
+        justify-content: center;
+        align-items: start;
+        height: 466px;
+        width: 100%;
+        margin-bottom: 63px;
+    }
+}
+
+@media only screen and (max-width:890px){
+    .brands {
+        height: auto;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width:700px){
+    .about-section {
+        height: 148px;
+        width: 100%;
+        margin-bottom: 44px;
+    }
+    .numbers-section {
+        height: 169px;
+        width: 100%;
+        margin-bottom: 34px;
+    }
+    .banner {
+        display: flex
+    ;
+        justify-content: center;
+        align-items: start;
+        height: 417px;
+        width: 100%;
+        margin-bottom: 63px;
+    }
+    .about-section .wrapper {
+      
+        gap: 10px;
+    }
+  
+    
+}
+@media only screen and (max-width:630px){
+    .about-section .wrapper {
+       gap: 30px;
+}
+.about-section {
+ 
+    margin-bottom: 65px;
+}
+.about-section {
+    height: auto;
+   
+}
+.numbers-section .wrapper .card {
+    width: 33%;
+    
+}
+.numbers-section .wrapper {
+   gap: 20px;
+   padding-top: 20px;
+ 
+}
+.numbers-section {
+    height: auto;
+    
+}
+.banner {
+    display: flex
+;
+    justify-content: center;
+    align-items: start;
+    height: 323px;
+    width: 100%;
+    margin-bottom: 63px;
+}
+}
+@media only screen and (max-width:500px){
+    .numbers-section .wrapper .card {
+        width: 74%;
+        
+    }
+    .numbers-section .wrapper {
+       
+    
+        justify-content: center;
+        align-items: center;
+    }
+    .brands .wrapper img {
+        height: 109px;
+        width: 273px;
+    }
+    .wrapper {
+        margin: 0px 50px;
+        /* margin-bottom: 100px; */
+    }
+    .banner {
+        display: flex
+;
+        justify-content: center;
+        align-items: start;
+        height: 265px;
+        width: 100%;
+        margin-bottom: 63px;
+    }
+
+}
+@media only screen and (max-width:400px){
+    .banner {
+        display: flex
+    ;
+        justify-content: center;
+        align-items: start;
+        height: 224px;
+        width: 100%;
+        margin-bottom: 63px;
+    }
+    .brands .wrapper img {
+        height: 92px;
+        width: 208px;
+    }
+    
+   
+    
+}
+
+
+
+
+

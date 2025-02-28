@@ -1,0 +1,351 @@
+nav{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 531px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.call-section{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.call-section .wrapper{
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 30px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+   
+}
+.call-section .wrapper .right-section{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+/* .call-section .wrapper .right-section h3{
+    width: 100%;
+} */
+.call-section .wrapper .right-section img{
+    height: 175px;
+    width: 224px;
+}
+.call-section .wrapper .right-section .number{
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.call-section .wrapper .left-section {
+    height: 100%;
+    width: 30%;
+    background-color: #7416608b;
+   
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  
+}
+.call-section .wrapper .left-section .form{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.call-section .wrapper .left-section .form .ratings{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-top: 20px;
+}
+.call-section .wrapper .left-section .form input{
+    width: 80%;
+    height: 20px; 
+    padding: 7px 10px;
+    border-radius: 20px;
+    border: none;
+}
+.call-section .wrapper .left-section .form i{
+    color: aliceblue;
+}
+.benifits{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.benifits .wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 60px
+    ; */
+}
+.benifits .wrapper .top-section{
+    display: flex;
+    height: 20%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+.benifits .wrapper .bottom-section{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px
+    ;
+    align-items: center;
+}
+
+.top{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* width: 25%; */
+}
+.bottom{
+    display: flex;
+    gap: 20px;
+    /* padding-left: 30px; */
+}
+.type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.type .bi{
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.check{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.check .wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.check .wrapper .top-section{
+    height: 20%;
+}
+.check .wrapper .bottom-section{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.check .wrapper .bottom-section ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px
+    ;
+}
+.check .wrapper .bottom-section ul li{
+   list-style-type:circle;
+   display: flex;
+   justify-content: center;
+    color: aliceblue;
+    /* font-size: 25px; */
+    width: 30%;
+    text-align: center;
+  
+}
+
+/* media */
+@media only screen and (max-width:1166px){
+    .call-section .wrapper .left-section .form {
+        padding: 10px;
+        gap: 12px
+        ;
+    }
+    .check {
+        height: auto;
+        width: 100%;
+        margin-bottom: 120px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:1050px){
+    .check .wrapper .bottom-section ul li {
+        font-size: 20px;
+      
+    }
+    p{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:960px){
+    .call-section .wrapper {
+        height: 100%;
+        flex-wrap: wrap;
+        gap: 60px;
+        
+    }
+    .call-section {
+        height: auto;
+}
+.call-section .wrapper .left-section {
+   
+    width: 44%;
+    
+}}
+@media only screen and (max-width:768px){
+    .check .wrapper .bottom-section ul li {
+        font-size: 18px;
+        width: 45%;
+      
+    }
+    .banner {
+        height: 450px;
+       
+    }
+    .call-section .wrapper .left-section {
+        width: 66%;
+    }
+   
+
+}
+@media only screen and (max-width:550px){
+    .banner {
+        height: 350px;
+       
+    }
+    .call-section .wrapper .left-section {
+        width: 90%;
+    }
+    .call-section .wrapper .right-section img {
+        height: 138px;
+        width: 188px;
+    }
+}
+@media only screen and (max-width:450px){
+    .check .wrapper .bottom-section ul li {
+        font-size: 16px;
+      
+    }
+    .top {
+        display: flex
+
+    ;
+    
+        gap: 26px;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .bottom {
+        display: flex
+    ;
+        gap: 20px;
+       
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .benifits {
+        height: auto;
+
+    }
+    .benifits .wrapper .bottom-section {
+        height: auto;
+      
+    }
+    benifits .wrapper .top-section {
+        display: flex
+    ;
+        height: auto;
+        
+    }
+
+}
+@media only screen and (max-width:350px){
+    .banner {
+        height: 300px;
+       
+    }
+    .check .wrapper .bottom-section ul li {
+        font-size: 14px;
+      
+    }
+   
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
